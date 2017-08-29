@@ -10,7 +10,8 @@ const regex_game = require('workshopper-adventure')({
 regex_game.addAll([
     'INTRODUCTION',
     'ANCHORS AND MODIFIERS',
-    'ALTERNATION'
+    'ALTERNATION',
+    'WORD BOUNDARIES'
 ])
 
 module.exports = regex_game
