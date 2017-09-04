@@ -12,7 +12,8 @@ regex_game.addAll([
     'ANCHORS AND MODIFIERS',
     'ALTERNATION',
     'WORD BOUNDARIES',
-    'GROUPING'
+    'GROUPING',
+    'QUANTIFIERS'
 ])
 
 module.exports = regex_game
