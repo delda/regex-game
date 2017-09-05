@@ -13,7 +13,8 @@ regex_game.addAll([
     'ALTERNATION',
     'WORD BOUNDARIES',
     'GROUPING',
-    'QUANTIFIERS'
+    'QUANTIFIERS',
+    'LAZY QUANTIFIERS'
 ])
 
 module.exports = regex_game
