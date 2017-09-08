@@ -14,7 +14,9 @@ regex_game.addAll([
     'WORD BOUNDARIES',
     'GROUPING',
     'QUANTIFIERS',
-    'LAZY QUANTIFIERS'
+    'LAZY QUANTIFIERS',
+    'LOOKAROUND',
+    'FIRST GENERAL RULE'
 ])
 
 module.exports = regex_game
