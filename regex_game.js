@@ -10,6 +10,7 @@ const regex_game = require('workshopper-adventure')({
 regex_game.addAll([
     'INTRODUCTION',
     'ANCHORS AND MODIFIERS',
+    'UNICODE',
     'ALTERNATION',
     'WORD BOUNDARIES',
     'GROUPING',
