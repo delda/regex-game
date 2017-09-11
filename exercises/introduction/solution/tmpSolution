@@ -5,7 +5,7 @@ var phrases = [
     'hello world',
     'hello world!'],
     result,
-    regex = /Hello World!/
+    regex = %%%TEST%%%
 
 phrases.forEach(function (phrase) {
     result = phrase.match(regex)
