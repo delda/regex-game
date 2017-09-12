@@ -1,8 +1,8 @@
-var string = "ab\ncd";
+var string = "ab\ncd",
+    regexs = [/.*/, /.*$/, /^cd/m, /^.cd/m, /^ab.cd$/m, /^cd$/m],
+    path = require('path'),
+    resultRegex = require(path.join(__dirname, '../../../support/resultRegex'))
 
-console.log(string.match(/.*/)[0]);
-console.log(string.match(/.*$/)[0]);
-console.log(string.match(/^cd/m)[0]);
-console.log(string.match(/^.cd/m) || '');
-console.log(string.match(/^ab.cd$/m) || '');
-console.log(string.match(/^cd$/m)[0]);
+regexs.forEach(function(regex){
+    console.log(resultRegex(regex, string)[0] || '')
+})

@@ -2,11 +2,10 @@ var resultRegex = function (regex, subject) {
     var result = subject.match(regex),
         finalArray = []
 
-    if (!result)
-        return []
+    if (!result) return []
 
     result.forEach(function (substring) {
-        if (typeof substring == 'undefined')
+        if (typeof substring == 'undefined' || substring == '')
             substring = '___'
         finalArray.push(substring)
     })
