@@ -7,5 +7,5 @@ stringa_1|stringa_2|stringa_3
 
 ## PROBLEMA
 
-Trovare almeno tre differenti espressioni regolari che matchino solo queste tre parole:
+Scrivere tre differenti espressioni regolari (una per riga del file da testare) che trovino solo queste tre parole:
 _a**cc**eso_, _a**pp**eso_ e _a**rr**eso_.

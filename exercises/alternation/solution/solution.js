@@ -7,24 +7,16 @@
     /^(acc|app|arr)eso$/
 */
 
-console.log('acceso')
-console.log('appeso')
-console.log('arreso')
-console.log()
-console.log()
-console.log()
-console.log()
-console.log('acceso')
-console.log('appeso')
-console.log('arreso')
-console.log()
-console.log()
-console.log()
-console.log()
-console.log('acceso')
-console.log('appeso')
-console.log('arreso')
-console.log()
-console.log()
-console.log()
-console.log()
+var worlds = ['acceso', 'appeso', 'arreso', 'riacceso', 'sovrappeso', 'acreso', 'appreso'],
+    argoments = [/^(acceso|appeso|arreso)$/, /^a(cc|pp|rr)eso$/, /^a(c{2}|p{2}|r{2})eso$/]
+
+argoments.forEach(function (regex) {
+    worlds.forEach(function (world) {
+        var result = world.match(regex)
+        if (result) {
+            console.log(result[0])
+        } else {
+            console.log()
+        }
+    })
+})
