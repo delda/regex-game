@@ -18,7 +18,8 @@ regex_game.addAll([
     'LAZY QUANTIFIERS',
     'LOOKAROUND',
     'FIRST GENERAL RULE',
-    'SECOND GENERAL RULE'
+    'SECOND GENERAL RULE',
+    'SIMPLE EXAMPLE''
 ])
 
 module.exports = regex_game
