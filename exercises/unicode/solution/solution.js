@@ -1,6 +1,6 @@
 var phrases = [
         'JavaScript è proprio una 💩!',
-        'Io invece 💙  JavaScript...',
+        'Io invece 💙 JavaScript...',
         'Il 🔆  e la 🌜'],
     result,
     regex = /[\u0000-\u007F]+/
