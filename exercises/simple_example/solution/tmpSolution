@@ -1,0 +1,15 @@
+var phrases = [
+        'Aiuto! Amico mio!',
+        'Casa e lavoro, lavoro e casa',
+        'Se io, se lei',
+        'Rincasato a casa',],
+    regex = %%%TEST%%%
+
+phrases.forEach(function(phrase) {
+    var result = phrase.match(regex)
+    if (result) {
+        console.log(result[0])
+    } else {
+        console.log()
+    }
+})
