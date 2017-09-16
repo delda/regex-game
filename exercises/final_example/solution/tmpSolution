@@ -1,0 +1,16 @@
+var phrases = [
+        'password',
+        'passWord',
+        '123passWord',
+        '123passWord@@@',
+        '123passWord@@@csdcsdcsdcsd'],
+    regex = %%%TEST%%%
+
+phrases.forEach(function(phrase) {
+    var result = phrase.match(regex)
+    if (result) {
+        console.log(result[0])
+    } else {
+        console.log()
+    }
+})

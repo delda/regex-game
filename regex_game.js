@@ -19,7 +19,8 @@ regex_game.addAll([
     'LOOKAROUND',
     'FIRST GENERAL RULE',
     'SECOND GENERAL RULE',
-    'SIMPLE EXAMPLE''
+    'SIMPLE EXAMPLE',
+    'FINAL EXAMPLE'
 ])
 
 module.exports = regex_game
