@@ -1,7 +1,7 @@
 L'_alternation_ "**|**" è uno dei principali metacaratteri per la scrittura delle espressioni regolari.
 Ha la funzione logica dell'_OR_ booleano perché permette la scelta tra una delle sottostringhe:
 ```
-stringa_1|stringa_2|stringa_3
+   /stringa_1|stringa_2|stringa_3/
 
 ```
 
