@@ -1,5 +1,4 @@
 const fs = require('fs')
-    // path = require('path'),
 
 var replaceSolutionFile = function (exercise, fileName, solutionFile, tmpFile) {
 
