@@ -1,7 +1,7 @@
 var worlds = ['acceso', 'appeso', 'arreso', 'riacceso', 'sovrappeso', 'acreso', 'appreso'],
-    argoments = [%%%TEST%%%]
+    regexes = [%%%TEST%%%]
 
-argoments.forEach(function (regex) {
+regexes.forEach(function (regex) {
     worlds.forEach(function (world) {
         var result = world.match(regex)
         if (result) {
