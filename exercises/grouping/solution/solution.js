@@ -1,5 +1,5 @@
 var path = require('path'),
-    resultRegex = require(path.join(__dirname, '../../../support/resultRegex.js')),
+    resultRegex = require(path.join(__dirname, '../../../support/resultRegex')),
     string = ['abcdefghij', 'abcdghij', 'abefij'],
     regex = /(ab(cd|ef)((gh)|ij))/
 
