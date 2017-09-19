@@ -4,18 +4,23 @@ I principali quantificatori sono:
 * **?** l'espressione a cui si riferisce può essere presente _nessuna_ volta o _una_ volta
 * **.** l'espressione a cui si riferisce può essere presente da _una_ volta ad _infinite_ volte
 * **\*** l'espressione a cui si riferisce può essere presente da _zero_ volte ad _infinite_ volte
-* **{n,m}** l'espressione a cui si riferisce può essere presenta da _n_ volte ad _m_ volte
+* **{n,m}** l'espressione a cui si riferisce può essere presente da _n_ volte ad _m_ volte
 
-Generalmente, i quantificatori sono _greedy_ ovvero tendono a cercare la sottostringa più lunga che soddifsa l'espressione regolare.
+Generalmente, i quantificatori sono _greedy_ ovvero tendono a cercare la sottostringa più lunga che soddisfi l'espressione regolare.
 
 ## PROBLEMA
-Scrivi l'output delle seguenti espressioni regolari sulla parola `Pinturicchio`:
+Scrivi l'output delle seguenti espressioni regolari sulla parola "`Pinturicchio`":
 ```
 /(.+)(h|i)(.*)/
 /(.+)(h|i|o)(.*)/
 ```
 
-Per esempio, se dovessi scrivere la soluzione dell'espressione regolare `/(s.*i)(.*)e/` sul testo `Espressione` dovresti scrivere:
+Per ogni espression regolare utilizzare un comando _console.log()_ come nell'esempio seguente:
 ```
-console.log('spressi', 'on')
+"ciao mondo"
+/(ciao) (mondo)(!?)/
+console.log('ciao mondo', 'ciao', 'mondo', '___')
 ```
+NB: il primo risultato è l'intera sottostringa trovata, senza considerare i gruppi
+
+NNB: l'ultima stringa `___` indica che il gruppo `(!?)` non ha trovato alcun valore

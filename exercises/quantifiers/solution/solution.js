@@ -1,8 +1,8 @@
-var test = 'Pinturicchio',
-    res
+var path = require('path'),
+    resultRegex = require(path.join(__dirname, '../../../support/resultRegex')),
+    string = 'Pinturicchio',
+    regex = [/(.+)(h|i)(.*)/, /(.+)(h|i|o)(.*)/]
 
-res = test.match(/(.+)(h|i)(.*)/).slice(1,4).join(' ')
-console.log(res)
-
-res = test.match(/(.+)(h|i|o)(.*)/).slice(1,3).join(' ')
-console.log(res)
+regex.forEach(function (re) {
+    console.log(resultRegex(re, string).join(' '))
+})
