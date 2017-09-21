@@ -1,5 +1,5 @@
 var worlds = ['acceso', 'appeso', 'arreso', 'riacceso', 'sovrappeso', 'acreso', 'appreso'],
-    regexes = [%%%TEST%%%]
+    regexes = [%%%REPLACED%%%]
 
 regexes.forEach(function (regex) {
     worlds.forEach(function (world) {

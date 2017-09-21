@@ -4,7 +4,7 @@ var phrases = [
         '123passWord',
         '123passWord@@@',
         '123passWord@@@csdcsdcsdcsd'],
-    regex = %%%TEST%%%
+    regex = %%%REPLACED%%%
 
 phrases.forEach(function(phrase) {
     var result = phrase.match(regex)

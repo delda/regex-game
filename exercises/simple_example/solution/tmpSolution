@@ -3,7 +3,7 @@ var phrases = [
         'Casa e lavoro, lavoro e casa',
         'Se io, se lei',
         'Rincasato a casa',],
-    regex = %%%TEST%%%
+    regex = %%%REPLACED%%%
 
 phrases.forEach(function(phrase) {
     var result = phrase.match(regex)

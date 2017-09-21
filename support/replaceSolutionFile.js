@@ -9,7 +9,7 @@ var replaceSolutionFile = function (exercise, fileName, solutionFile, tmpFile) {
             if(re) regex.push(re)
         })
         var data = fs.readFileSync(solutionFile).toString()
-        var newData = data.replace('%%%TEST%%%', regex)
+        var newData = data.replace('%%%REPLACED%%%', regex)
 
         fs.writeFile(
             tmpFile,

@@ -3,7 +3,7 @@ var phrases = [
      'Io invece 💙 JavaScript...',
      'Il 🔆  e la 🌜'],
     result,
-    regex = %%%TEST%%%
+    regex = %%%REPLACED%%%
 
 phrases.forEach(function (phrase) {
     result = phrase.match(regex)
