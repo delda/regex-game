@@ -1,3 +1,0 @@
-#!/usr/bin/env node
-
-require('../regex_game').execute(process.argv.slice(2))
