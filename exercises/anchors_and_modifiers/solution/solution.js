@@ -1,5 +1,5 @@
 var string = "ab\ncd",
-    regexs = [/.*/, /.*$/, /^cd/m, /^.cd/m, /^ab.cd$/m, /^cd$/m],
+    regexs = [/.*/, /.*$/, /^cd/m, /^.cd/m, /^ab.cd$/m],
     path = require('path'),
     resultRegex = require(path.join(__dirname, '../../../support/resultRegex'))
 
