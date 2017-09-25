@@ -12,6 +12,3 @@ Scrivere un'espressione regolare per verificare una password con i seguenti requ
 * abbia almeno un numero 
 * abbia almeno un carattere speciale (**$@$!%*#?&**)
 * non abbia altri caratteri oltre quelli elencati in precedenza
-
-
-(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[*$#])^[\d\w*$#]{10,50}$
