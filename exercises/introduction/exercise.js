@@ -5,7 +5,7 @@ var exercise = require('workshopper-exercise')(),
     path = require('path'),
     replaceSolutionFile = require(path.join(__dirname, '../../support/replaceSolutionFile')),
     solutionFile = path.join(__dirname, './solution/tmpSolution'),
-    tmpFile = '/tmp/unicode'
+    tmpFile = '/tmp/introduction'
 
 exercise.addSetup(function (mode, callback) {
     this.args = [tmpFile]
