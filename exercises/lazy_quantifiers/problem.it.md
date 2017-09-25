@@ -10,8 +10,8 @@ Quindi avremo:
 ## PROBLEMA
 Scrivi l'output delle seguenti espressioni regolari sulla parola "`Pinturicchio`":
 ```
-/(.+?)(h|i)(.*?)/
-/(.+?)(h|i|o)(.+?)/
+/^(.+?)(h|i)(.*?)$/
+/^(.+?)(h|i|o)(.+?)/
 ```
 
 Per ogni espressione regolare utilizzare un comando _console.log()_ come nell'esempio seguente:
