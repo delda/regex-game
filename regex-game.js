@@ -1,4 +1,4 @@
-const regex_game = require('workshopper-adventure')({
+const RegexGame = require('workshopper-adventure')({
   appDir: __dirname,
   languages: ['en', 'it'],
   header: require('workshopper-adventure/default/header'),
@@ -7,7 +7,7 @@ const regex_game = require('workshopper-adventure')({
   pass: require('workshopper-adventure/default/pass')
 })
 
-regex_game.addAll([
+RegexGame.addAll([
   'INTRODUCTION',
   'ANCHORS AND MODIFIERS',
   'UNICODE',
@@ -23,4 +23,4 @@ regex_game.addAll([
   'FINAL EXAMPLE'
 ])
 
-module.exports = regex_game
+module.exports = RegexGame
