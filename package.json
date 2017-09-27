@@ -20,12 +20,17 @@
   },
   "scripts": {
     "lint": "standard",
-    "test": "support/mocha.js",
+    "test": "npm run lint && support/mocha.js",
     "release": "standard-version"
   },
   "bin": {
     "regex-game": "bin/regex-game"
   },
   "main": "./regex-game.js",
-  "preferGlobal": true
+  "preferGlobal": true,
+  "standard": {
+    "ignore": [
+      "test"
+    ]
+  }
 }
