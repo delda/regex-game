@@ -5,7 +5,7 @@ var resultRegex = function (regex, subject) {
   if (!result) return []
 
   result.forEach(function (substring) {
-    if (typeof substring === 'undefined' || substring == '') { substring = '___' }
+    if (typeof substring === 'undefined' || substring === '') { substring = '___' }
     finalArray.push(substring)
   })
 
