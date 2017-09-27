@@ -1,6 +1,6 @@
 var resultRegex = function (regex, subject) {
-  var result = subject.match(regex),
-    finalArray = []
+  var result = subject.match(regex)
+  var finalArray = []
 
   if (!result) return []
 
