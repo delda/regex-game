@@ -13,9 +13,9 @@ exercise = execute(exercise)
 exercise = comparestdout(exercise)
 
 exercise.addSetup(function (mode, callback) {
-    var args = ['Ciao Mondo', 'Hello World', 'Hello World!', 'hello world', 'hello world!']
-    this.submissionArgs = this.solutionArgs = args
-    process.nextTick(callback)
+  var args = ['Ciao Mondo', 'Hello World', 'Hello World!', 'hello world', 'hello world!']
+  this.submissionArgs = this.solutionArgs = args
+  process.nextTick(callback)
 })
 
 module.exports = exercise
