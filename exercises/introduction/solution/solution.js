@@ -1,11 +1,11 @@
 var phrases = [
-    'Ciao Mondo',
-    'Hello World',
-    'Hello World!',
-    'hello world',
-    'hello world!'],
-  result,
-  regex = /Hello World!/
+  'Ciao Mondo',
+  'Hello World',
+  'Hello World!',
+  'hello world',
+  'hello world!']
+var result
+var regex = /Hello World!/
 
 phrases.forEach(function (phrase) {
   result = phrase.match(regex)

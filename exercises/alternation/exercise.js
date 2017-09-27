@@ -1,11 +1,11 @@
-var exercise = require('workshopper-exercise')(),
-  filecheck = require('workshopper-exercise/filecheck'),
-  execute = require('workshopper-exercise/execute'),
-  comparestdout = require('workshopper-exercise/comparestdout'),
-  path = require('path'),
-  replaceSolutionFile = require(path.join(__dirname, '../../support/replaceSolutionFile')),
-  solutionFile = path.join(__dirname, './solution/tmpSolution'),
-  tmpFile = '/tmp/alternation'
+var exercise = require('workshopper-exercise')()
+var filecheck = require('workshopper-exercise/filecheck')
+var execute = require('workshopper-exercise/execute')
+var comparestdout = require('workshopper-exercise/comparestdout')
+var path = require('path')
+var replaceSolutionFile = require(path.join(__dirname, '../../support/replaceSolutionFile'))
+var solutionFile = path.join(__dirname, './solution/tmpSolution')
+var tmpFile = '/tmp/alternation'
 
 exercise.addSetup(function (mode, callback) {
   this.args = [tmpFile]
