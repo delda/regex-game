@@ -4,4 +4,4 @@ Benvenuto in *regex-game*!
 
 ## PROBLEMA
 Per superare il livello introduttivo, crea un file con estensione `.js` in cui
-scrivere **solo** l'espressione regolare che cerca la stringa "`Hello Word!`" in un testo qualsiasi.
+scrivere **solo** l'espressione regolare che cerca la stringa "`Hello World!`" in un testo qualsiasi.
