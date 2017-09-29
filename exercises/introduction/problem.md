@@ -1,4 +1,4 @@
-Wellcome in *regex-game*!
+Welcome in *regex-game*!
 
 *regex-game* is a simple game to revise and deepen your knowledge of regular expression.
 
