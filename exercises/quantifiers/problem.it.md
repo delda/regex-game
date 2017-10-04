@@ -15,7 +15,7 @@ Scrivi l'output delle seguenti espressioni regolari sulla parola "`Pinturicchio`
 /(.+)(h|i|o)(.*)/
 ```
 
-Per ogni espression regolare utilizzare un comando _console.log()_ come nell'esempio seguente:
+Per ogni espressione regolare utilizzare un comando _console.log()_ come nell'esempio seguente:
 ```
 "ciao mondo"
 /(ciao) (mondo)(!?)/
