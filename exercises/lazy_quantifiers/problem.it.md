@@ -20,4 +20,7 @@ Per ogni espressione regolare utilizzare un comando _console.log()_ come nell'es
 /(ciao) (mondo)(!?)/
 console.log('ciao mondo', 'ciao', 'mondo', '___')
 ```
-NB: l'ultima stringa `___` indica che il gruppo `(!?)` non ha trovato alcun valore
+NB: il primo risultato è l'intera sottostringa trovata, senza considerare i gruppi
+
+NNB: l'ultima stringa `___` indica che il gruppo `(!?)` non ha trovato alcun valore
+
