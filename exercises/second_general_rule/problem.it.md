@@ -1,4 +1,4 @@
-Continuando il discorso del precedente problema, analizziamo la seconda (ed ultima) regola generale per le espression regolari:
+Continuando il discorso del precedente problema, analizziamo la seconda (ed ultima) regola generale per le espressioni regolari:
 
 **I quantificatori standard sono _greedy_**
 
