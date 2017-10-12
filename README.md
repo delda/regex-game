@@ -5,6 +5,8 @@
 [![Build Status][buildstat-image]][buildstat-url]
 [![dependencies Status][dependencies-image]][dependencies-url]
 
+[![NPM][npm-nodei-image]][npm-nodei-url]
+
 [node-url]: https://nodejs.org/en/download/
 [node-image]: https://img.shields.io/badge/node-v8.4-blue.svg
 
@@ -16,3 +18,6 @@
 
 [dependencies-url]: https://david-dm.org/delda/regex-game
 [dependencies-image]: https://david-dm.org/delda/regex-game/status.svg
+
+[npm-nodei-url]: https://nodei.co/npm/regex-game
+[npm-nodei-image]: https://nodei.co/npm/regex-game.png
