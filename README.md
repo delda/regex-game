@@ -7,6 +7,8 @@
 
 [![NPM][npm-nodei-image]][npm-nodei-url]
 
+![Learn You The Node.js For Much Win!][regex-game-image]
+
 [node-url]: https://nodejs.org/en/download/
 [node-image]: https://img.shields.io/badge/node-v8.4-blue.svg
 
@@ -21,3 +23,5 @@
 
 [npm-nodei-url]: https://nodei.co/npm/regex-game
 [npm-nodei-image]: https://nodei.co/npm/regex-game.png
+
+[regex-game-image]: https://raw.github.com/delda/regex-game/master/regex-game.png
