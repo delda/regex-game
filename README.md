@@ -9,6 +9,15 @@
 
 ![Learn You The Node.js For Much Win!][regex-game-image]
 
+
+## Install
+
+First of all, install [Node.js](https://nodejs.org)
+
+Run `npm install -g regex-game`
+
+Now just type `regex-game` to play!
+
 [node-url]: https://nodejs.org/en/download/
 [node-image]: https://img.shields.io/badge/node-v8.4-blue.svg
 
